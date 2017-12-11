@@ -6,12 +6,14 @@
 2. If your installation is correct then you need to set the environment under: *Advanced system settings --> Environment variables.*
 3. Now comes the main part which causes the error. Here I have set the **"class"** & **"classpath"** using a batch file (.bat file). Make sure that your java source file and the batch file are in the same directory. Suppose if your both the files are in E: drive then the code of the batch file looks like this:
 
+```
     @echo off
     E:
     set class="C:\Program Files\Java\jdk1.8.0_121\bin";
     set classpath="C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar";
     color 0a
     pause
+```
 
 (Don't copy the **"class"** & **"classpath"** of the batch file from my code. You need to set your own destination from your jdk. As I have described in the video).
 
