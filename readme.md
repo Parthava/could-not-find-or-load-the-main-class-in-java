@@ -15,7 +15,7 @@
     pause
 ```
 
-(Don't copy the **"class"** & **"classpath"** of the batch file from my code. You need to set your own destination from your jdk. As I have described in the video).
+(Don't copy the **"class"** & **"classpath"** of the batch file from my code. You need to set your own destination from your jdk. As I have described in the video. Save it as "pack.bat").
 
 4. Now open command prompt and go to the location where both the files are present (Suppose E: drive ).
 5. Run the batch file. Type: **start " " "pack.bat"** (Exactly same).
